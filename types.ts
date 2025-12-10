@@ -1,0 +1,18 @@
+export enum AppStep {
+  LOGIN = 'LOGIN',
+  HOME_INITIAL = 'HOME_INITIAL',
+  FACE_SCAN_ENTRY = 'FACE_SCAN_ENTRY',
+  SUCCESS_ENTRY = 'SUCCESS_ENTRY',
+  HOME_CHECKED_IN = 'HOME_CHECKED_IN',
+  FACE_SCAN_EXIT = 'FACE_SCAN_EXIT',
+  SUCCESS_EXIT = 'SUCCESS_EXIT',
+  WARNING = 'WARNING',
+  BANNED = 'BANNED',
+  PROFESSOR_UNLOCK = 'PROFESSOR_UNLOCK'
+}
+
+export interface User {
+  name: string;
+  id: string;
+  major: string;
+}

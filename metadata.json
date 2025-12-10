@@ -1,0 +1,8 @@
+{
+  "name": "YU Smart Attendance",
+  "description": "A simulation of the Yeungnam University Smart Attendance application flow.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
